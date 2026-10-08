@@ -1,0 +1,5 @@
+# Web host row only: lets DSH discover this package's dsh.client module.
+# Agent-facing tools are mounted separately by a selected agent preset.
+- insert:
+    - id: api-tools-host
+      name: dsh-api-tools
