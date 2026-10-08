@@ -1,7 +1,7 @@
 import type { UserConfig } from 'tsdown'
 
 const pluginId = 'dsh-api-tools'
-// DSH Web's module loader expects this global and a factory returning module.exports.
+// DSH client module loader expects this global and a factory returning module.exports.
 const loaderGlobal = 'window.__ModuleLoader__'
 const platformModules = ['react', 'react/jsx-runtime']
 
